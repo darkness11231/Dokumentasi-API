@@ -4,7 +4,7 @@
 `POST`
 
 **Endpoint :**
-`http://xchannell.web.id/api/tools/cek-sidompul`
+`http://api.projectxz.app/api/tools/cek-sidompul`
 
 **Provider Support :**
 
@@ -13,7 +13,7 @@
 ## Request
 
 ```bash
-curl -X POST "http://xchannell.web.id/api/tools/cek-sidompul" \
+curl -X POST "http://api.projectxz.app/api/tools/cek-sidompul" \
 -H "Content-Type: application/json" \
 -d '{
   "key": "(key mu)",
