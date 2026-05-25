@@ -6,7 +6,7 @@
 **Endpoint XL/AXIS/THREE/INDOSAT :**
 `http://api.projectxz.app/api/tools/cek-sidompul`
 
-**Endpoint XL/AXIS/THREE/INDOSAT :**
+**Endpoint TELKOMSEL :**
 `http://api.projectxz.app/api/tools/cek-tsel`
 
 **Provider Support :**
