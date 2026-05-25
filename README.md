@@ -3,12 +3,15 @@
 **Method :**
 `POST`
 
-**Endpoint :**
+**Endpoint XL/AXIS/THREE/INDOSAT :**
 `http://api.projectxz.app/api/tools/cek-sidompul`
+
+**Endpoint XL/AXIS/THREE/INDOSAT :**
+`http://api.projectxz.app/api/tools/cek-tsel`
 
 **Provider Support :**
 
-> XL, AXIS, Indosat, TRI
+> XL, AXIS, Indosat, TRI, Telkomsel
 
 ## Request
 
@@ -20,6 +23,18 @@ curl -X POST "http://api.projectxz.app/api/tools/cek-sidompul" \
   "nomor_hp": "(nomor yang di cek axis, xl, isat, tri)"
 }'
 ```
+
+## Request
+
+```bash
+curl -X POST "http://api.projectxz.app/api/tools/cek-tsel" \
+-H "Content-Type: application/json" \
+-d '{
+  "key": "(key mu)",
+  "nomor_hp": "(Telkomsel)"
+}'
+```
+
 
 ## Response Success (XL / AXIS)
 
